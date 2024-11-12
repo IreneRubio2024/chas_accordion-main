@@ -1,0 +1,47 @@
+html {
+  background: #f2f1f4;
+  color: #19171c;
+  display: flex;
+  justify-content: center;
+}
+.description {
+  background-color: #f7e2ee;
+  display: none;
+}
+
+.description.active {
+  display: block;
+  height: auto;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#section1,
+#section2,
+#section3 {
+  padding: 20px;
+  margin-bottom: 10 px;
+  cursor: pointer;
+}
+
+#section1.active,
+#section2.active,
+#section3.active {
+  background-color: rgb(244, 129, 192);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.accordion {
+  width: 1000px;
+  height: auto;
+  border-style: solid;
+  border-radius: 10px;
+  padding: 40px;
+}
+
+.title {
+  font-weight: bold;
+  background-color: rgb(241, 185, 215);
+  padding: 10px;
+}
